@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fayas Footwear | Quality & Style Since 2016</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brandRed: '#D32F2F',
+                        brandDark: '#111111',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brandDark text-white text-xs py-2 text-center font-medium tracking-wide">
+        🔥 Special Offers Available | Quality Footwear Since 2016 | Free Local Delivery Available
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white border-b border-gray-100 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center gap-2">
+                <span class="bg-brandRed text-white font-black px-3 py-1 rounded text-xl tracking-wider">FFW</span>
+                <span class="font-extrabold text-xl tracking-tight hidden sm:inline">FAYAS <span class="text-brandRed">FOOTWEAR</span></span>
+            </a>
+
+            <!-- Nav Links -->
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-gray-700">
+                <a href="#featured" class="hover:text-brandRed transition">Featured</a>
+                <a href="#categories" class="hover:text-brandRed transition">Categories</a>
+                <a href="#products" class="hover:text-brandRed transition">Products</a>
+                <a href="#about" class="hover:text-brandRed transition">About Us</a>
+            </nav>
+
+            <!-- Action Button -->
+            <div>
+                <a href="https://wa.me/919876543210?text=Hello%20Fayas%20Footwear,%20I%20have%20an%20enquiry" target="_blank" class="bg-brandRed hover:bg-red-700 text-white px-4 py-2 rounded-full text-xs sm:text-sm font-bold transition flex items-center gap-2">
+                    💬 Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section (Nike Style Bold Visual) -->
+    <section class="relative bg-gray-900 text-white overflow-hidden py-20 lg:py-32">
+        <div class="absolute inset-0 opacity-40 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1600&q=80');"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+            <span class="text-brandRed font-black uppercase tracking-widest text-sm bg-white/10 px-3 py-1 rounded-full inline-block mb-4">Established 2016</span>
+            <h1 class="text-4xl sm:text-6xl font-black tracking-tight uppercase leading-none mb-4">
+                STEP INTO <br><span class="text-brandRed">COMFORT & STYLE</span>
+            </h1>
+            <p class="max-w-xl text-gray-300 text-base sm:text-lg mb-8">
+                Explore durable, premium quality gents, ladies, and kids footwear. Crafted for maximum comfort every day.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
+                <a href="#products" class="bg-brandRed hover:bg-red-700 text-white px-8 py-3 rounded-full font-bold transition text-center">Shop Latest Arrival</a>
+                <a href="#about" class="bg-white/10 hover:bg-white/20 text-white px-8 py-3 rounded-full font-bold backdrop-blur transition text-center">Visit Shop</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-2xl font-black text-gray-900 tracking-tight uppercase mb-8">Shop By Category</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                
+                <!-- Category 1 -->
+                <div class="relative rounded-2xl overflow-hidden group h-64 shadow-md">
+                    <img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Gents Collection">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Gents Footwear</h3>
+                            <a href="#products" class="text-brandRed text-sm font-semibold hover:underline">Explore More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="relative rounded-2xl overflow-hidden group h-64 shadow-md">
+                    <img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Ladies Collection">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Ladies Collection</h3>
+                            <a href="#products" class="text-brandRed text-sm font-semibold hover:underline">Explore More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="relative rounded-2xl overflow-hidden group h-64 shadow-md">
+                    <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=800&q=80" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Kids Footwear">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex items-end p-6">
+                        <div>
+                            <h3 class="text-xl font-bold text-white uppercase">Kids Footwear</h3>
+                            <a href="#products" class="text-brandRed text-sm font-semibold hover:underline">Explore More &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Grid Section -->
+    <section id="products" class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-end mb-8">
+                <div>
+                    <span class="text-brandRed font-bold text-xs uppercase tracking-wider">Top Picks</span>
+                    <h2 class="text-3xl font-black text-gray-900 tracking-tight uppercase">Trending Footwear</h2>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Product Card 1 -->
+                <div class="border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover" alt="Product">
+                    <div class="p-4">
+                        <span class="text-xs text-gray-400 font-semibold uppercase">Daily Wear</span>
+                        <h3 class="font-bold text-gray-900 mt-1">Comfort Casual Chappal</h3>
+                        <p class="text-brandRed font-extrabold mt-2">₹499</p>
+                        <a href="https://wa.me/919876543210?text=I%20want%20to%20buy%20Comfort%20Casual%20Chappal%20(₹499)" target="_blank" class="mt-4 w-full bg-brandDark text-white py-2 rounded-lg font-bold text-xs text-center block hover:bg-brandRed transition">
+                            Buy on WhatsApp 💬
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover" alt="Product">
+                    <div class="p-4">
+                        <span class="text-xs text-gray-400 font-semibold uppercase">Sports / Active</span>
+                        <h3 class="font-bold text-gray-900 mt-1">Lightweight Sport Shoes</h3>
+                        <p class="text-brandRed font-extrabold mt-2">₹899</p>
+                        <a href="https://wa.me/919876543210?text=I%20want%20to%20buy%20Lightweight%20Sport%20Shoes%20(₹899)" target="_blank" class="mt-4 w-full bg-brandDark text-white py-2 rounded-lg font-bold text-xs text-center block hover:bg-brandRed transition">
+                            Buy on WhatsApp 💬
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1560769629-975ec94e6a86?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover" alt="Product">
+                    <div class="p-4">
+                        <span class="text-xs text-gray-400 font-semibold uppercase">Formal</span>
+                        <h3 class="font-bold text-gray-900 mt-1">Classic Gents Leather Shoe</h3>
+                        <p class="text-brandRed font-extrabold mt-2">₹1,299</p>
+                        <a href="https://wa.me/919876543210?text=I%20want%20to%20buy%20Classic%20Gents%20Leather%20Shoe%20(₹1299)" target="_blank" class="mt-4 w-full bg-brandDark text-white py-2 rounded-lg font-bold text-xs text-center block hover:bg-brandRed transition">
+                            Buy on WhatsApp 💬
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="border border-gray-100 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition">
+                    <img src="https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?auto=format&fit=crop&w=600&q=80" class="w-full h-48 object-cover" alt="Product">
+                    <div class="p-4">
+                        <span class="text-xs text-gray-400 font-semibold uppercase">Ladies Special</span>
+                        <h3 class="font-bold text-gray-900 mt-1">Stylish Soft Ladies Sandal</h3>
+                        <p class="text-brandRed font-extrabold mt-2">₹599</p>
+                        <a href="https://wa.me/919876543210?text=I%20want%20to%20buy%20Stylish%20Soft%20Ladies%20Sandal%20(₹599)" target="_blank" class="mt-4 w-full bg-brandDark text-white py-2 rounded-lg font-bold text-xs text-center block hover:bg-brandRed transition">
+                            Buy on WhatsApp 💬
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Shop Contact -->
+    <footer id="about" class="bg-brandDark text-white py-12 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-2xl font-black text-brandRed mb-2">FAYAS FOOTWEAR</h3>
+                <p class="text-gray-400 text-sm">Providing top quality, durable, and comfortable footwear for the whole family since 2016.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-3">Quick Links</h4>
+                <ul class="text-gray-400 text-sm space-y-2">
+                    <li><a href="#featured" class="hover:text-white">Featured</a></li>
+                    <li><a href="#categories" class="hover:text-white">Categories</a></li>
+                    <li><a href="#products" class="hover:text-white">Products</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold text-lg mb-3">Contact Shop</h4>
+                <p class="text-gray-400 text-sm mb-2">📍 Visit our store or order online via WhatsApp!</p>
+                <p class="text-gray-400 text-sm">📞 Phone / WhatsApp: +91 98765 43210</p>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-8 pt-8 border-t border-gray-800 text-center text-xs text-gray-500">
+            © 2026 Fayas Footwear. All rights reserved. Hosted Free on GitHub Pages.
+        </div>
+    </footer>
+
+</body>
+</html>
